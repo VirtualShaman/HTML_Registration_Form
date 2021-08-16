@@ -1,0 +1,64 @@
+<html>
+    <head></head>
+    <body>
+        <h1>
+            <b>Registration Form</b>
+        </h1>
+        <p>
+            First Name:*
+            <input type="text" name="first_name">
+        </p>
+        <p>
+            Last Name:*
+            <input type="text" name="last_name">
+        </p>
+        <p>
+            Email Address:*
+            <input type="text" name="email_address">
+        </p>
+        <p>
+            Password:*
+            <input type="Password" name="password">
+        </p>
+        <p>
+            Confirm Password:*
+            <input type="Password" name="confirm_password">
+        </p>
+        <p>
+            Birthday:*
+            <input type="date" name="dob">
+        </p>
+        <div>
+            <label>Gender Identity:</label>
+            <br/>
+            <input type="radio" name="font" value="Male" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="font" value="Female" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="font" value="nb" id="nb">
+            <label for="nb">Non-binary</label>
+            <input type="radio" name="font" value="na" id="na">
+            <label for="na">I prefer not to answer</label>
+        </div>
+        <p>
+            A short description about myself:
+            <br/>
+            <textarea name="comment" cols="30" rows="2"></textarea>
+        </p>
+        <p>
+            Favorite Language:
+            <select name="language">
+                <option>HTML</option>
+                <option>JavaScript</option>
+                <option>C++</option>
+                <option>Python</option>
+            </select>
+        </p>
+        <div>
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">Yes, I would like to recieve periodic email updates</label>
+        </div>
+        <input type="submit" value="Create Account">
+        <p>* Indicates a required field</p>
+    </body>
+</html>
